@@ -2,7 +2,7 @@ Hi All,
 
 This is the Advanced Blog App , I have bulit using Next JS and React JS. 
 
-To run the application, open the repository in VS code and navigate to the root directory. Then give command 'npm run dev' in the terminal.
+To run the application, open the repository in VS code and navigate to the IMT-Assignment directory in terminal. Then give command 'npm run dev' in the terminal.
 Then open http://localhost:3000/ to view the application in the browser. 
 
 File Structure:
