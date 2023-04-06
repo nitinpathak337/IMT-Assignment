@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hi All,
 
-## Getting Started
+This is the Advanced Blog App , I have bulit using Next JS and React JS. 
 
-First, run the development server:
+To run the application, open the repository in VS code and navigate to the root directory. Then give command 'npm run dev' in the terminal.
+Then open http://localhost:3000/ to view the application in the browser. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+File Structure:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Components folder contain three components : Header , Footer and Layout , to achieve similar layout throughout the application. 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Style folder contains all the css stylesheets that have been used in the application.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Pages folder have api folder , that contains the backend part and all the apis created.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+index.js is the login page , blogfeed.js is the home page that displays all the list of blogs , blogItem page displays a single blog item ,
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+createBlog.js is the page for creating blog and editBlog is the page for editing the blog. 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Features :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+User  can login the application with three roles Admin, Author and Reader. Admin and Author can wtite new blogs but reader can not. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Admin can update and delete all the blogs , while author can update and delete only its own blogs. Readers can only view blogs.
 
-## Deploy on Vercel
+All three user types can add comments in the blog.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Search functionality is implemented to search a blog based on its title. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Implemented React Hooks and Server Side Rending. 
+
+
+Thank You !
+
